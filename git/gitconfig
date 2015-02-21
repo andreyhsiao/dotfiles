@@ -1,0 +1,57 @@
+[user]
+  name = Andrey Hsiao
+  email = andrey@hsiao.io
+
+[core]
+  editor = vim
+  autocrlf = input
+  excludesfile = /Users/andrey/.gitignore_global
+
+[color]
+  ui = true
+
+[credential]
+  helper = osxkeychain
+
+[diff]
+  mnemonicprefix = true
+
+[help]
+  autocorrect = 1
+
+[mergetool]
+  keepBackup = false
+
+[push]
+  default = simple
+
+[rebase]
+  autosquash = true
+
+[alias]
+  assume = update-index --assume-unchanged
+  assumed = !git ls-files -v | grep ^h | cut -c 3-
+  unassume = update-index --no-assume-unchanged
+  cl = clone
+  ci = commit
+  co = checkout
+  br = branch
+  st = status -s -b
+  amend = commit --amend
+  fixup = commit --amend -C HEAD
+  ls = log --pretty=format:\"%C(yellow)%h %C(magenta ul)%ad%C(reset)%C(cyan bold)%d%C(reset) %C(white)%s %C(green)[%cn] %C(yellow)[%ar]%C(reset)\" --date=short
+  lol = log --decorate --graph --oneline
+  lola = log --all --decorate --graph --oneline
+  df = diff
+  ds = diff --staged
+  dw = diff --word-diff
+  r = reset
+  r1 = reset HEAD^
+  rh = reset --hard
+  rh1 = reset --hard HEAD^
+  rs = reset --soft
+  rs1 = reset --soft HEAD^
+  pom = push -v origin master
+  ignored = ls-files -i -o --exclude-standard
+  untracked = ls-files -o --exclude-standard
+
