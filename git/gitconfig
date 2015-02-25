@@ -3,9 +3,10 @@
   email = andrey@hsiao.io
 
 [core]
-  editor = vim
   autocrlf = input
+  editor = vim
   excludesfile = /Users/andrey/.gitignore_global
+  whitespace = trailing-space,space-before-tab,tab-in-indent,cr-at-eol,tabwidth=2
 
 [color]
   ui = true
@@ -15,6 +16,7 @@
 
 [diff]
   mnemonicprefix = true
+  renames = copies
 
 [help]
   autocorrect = 1
