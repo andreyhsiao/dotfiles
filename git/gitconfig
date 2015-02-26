@@ -8,6 +8,9 @@
   excludesfile = /Users/andrey/.gitignore_global
   whitespace = trailing-space,space-before-tab,tab-in-indent,cr-at-eol,tabwidth=2
 
+[apply]
+  whitespace = fix
+
 [color]
   ui = true
 
