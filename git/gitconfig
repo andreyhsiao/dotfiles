@@ -42,6 +42,7 @@
   co = checkout
   br = branch
   st = status -s -b
+  cp = cherry-pick
   amend = commit --amend
   fixup = commit --amend -C HEAD
   ls = log --pretty=format:\"%C(yellow)%h %C(magenta ul)%ad%C(reset)%C(cyan bold)%d%C(reset) %C(white)%s %C(green)[%cn] %C(yellow)[%ar]%C(reset)\" --date=short
