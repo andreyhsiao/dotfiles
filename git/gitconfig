@@ -58,6 +58,7 @@
   rh1 = reset --hard HEAD^
   rs = reset --soft
   rs1 = reset --soft HEAD^
+  egc = config --global --edit
   pom = push -v origin master
   ignored = ls-files -i -o --exclude-standard
   untracked = ls-files -o --exclude-standard
