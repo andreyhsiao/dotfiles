@@ -46,7 +46,7 @@
   cp = cherry-pick
   amend = commit --amend
   fixup = commit --amend -C HEAD
-  ls = log --pretty=format:\"%C(yellow)%h %C(magenta ul)%ad%C(reset)%C(cyan bold)%d%C(reset) %C(white)%s %C(green)[%cn] %C(yellow)[%ar]%C(reset)\" --date=short
+  ls = log --pretty=format:\"%C(yellow)%h %C(magenta ul)%ad%C(reset)%C(cyan bold)%d%C(reset) %C(white)%s %C(green)[%cn] %C(yellow)(%ar)%C(reset)\" --date=short
   lol = log --decorate --graph --oneline
   lola = log --all --decorate --graph --oneline
   df = diff
