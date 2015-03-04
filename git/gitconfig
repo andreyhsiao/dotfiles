@@ -58,6 +58,10 @@
   rh1 = reset --hard HEAD^
   rs = reset --soft
   rs1 = reset --soft HEAD^
+  ss = stash save
+  sl = stash list
+  sa = stash apply
+  sp = stash pop
   egc = config --global --edit
   pom = push -v origin master
   ignored = ls-files -i -o --exclude-standard
