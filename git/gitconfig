@@ -39,7 +39,7 @@
   assumed = !git ls-files -v | grep ^h | cut -c 3-
   unassume = update-index --no-assume-unchanged
   cl = clone
-  ci = commit
+  ci = commit -v
   co = checkout
   br = branch
   st = status -s -b
