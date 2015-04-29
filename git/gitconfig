@@ -58,6 +58,7 @@
   rh1 = reset --hard HEAD^
   rs = reset --soft
   rs1 = reset --soft HEAD^
+  rbc = rebase --continue
   ss = stash save
   sl = stash list
   sa = stash apply
