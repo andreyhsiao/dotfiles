@@ -27,6 +27,9 @@
 [mergetool]
   keepBackup = false
 
+[fetch]
+  prune = true
+
 [push]
   default = simple
 
